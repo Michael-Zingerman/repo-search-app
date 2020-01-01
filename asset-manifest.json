@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.371d6ecd.chunk.css",
+    "main.js": "/static/js/main.e73179a4.chunk.js",
+    "main.js.map": "/static/js/main.e73179a4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.57979eac.js",
+    "runtime-main.js.map": "/static/js/runtime-main.57979eac.js.map",
+    "static/css/2.771667fa.chunk.css": "/static/css/2.771667fa.chunk.css",
+    "static/js/2.d8e9a152.chunk.js": "/static/js/2.d8e9a152.chunk.js",
+    "static/js/2.d8e9a152.chunk.js.map": "/static/js/2.d8e9a152.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.bfe5a36a39e85ec8d499adbdc1f8451b.js": "/precache-manifest.bfe5a36a39e85ec8d499adbdc1f8451b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.771667fa.chunk.css.map": "/static/css/2.771667fa.chunk.css.map",
+    "static/css/main.371d6ecd.chunk.css.map": "/static/css/main.371d6ecd.chunk.css.map",
+    "static/media/all.min.css": "/static/media/fa-solid-900.c2801fb4.svg",
+    "static/media/github.png": "/static/media/github.2b650681.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57979eac.js",
+    "static/css/2.771667fa.chunk.css",
+    "static/js/2.d8e9a152.chunk.js",
+    "static/css/main.371d6ecd.chunk.css",
+    "static/js/main.e73179a4.chunk.js"
+  ]
+}
