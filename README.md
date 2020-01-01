@@ -1,68 +1,77 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Title
 
-## Available Scripts
+Github repositories search web application
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See Installing for notes on start the project.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Prerequisites
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+you will need to install IDE to run the fron application, and server side code
 
-### `npm test`
+```
+Server side : visual studio 2019
+Front Application : VS Code
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installing
 
-### `npm run build`
+Download the front application
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+github-repo-search-app
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Download the server-side code
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+github-repo-search-srv
+```
 
-### `npm run eject`
+opent the server side code using visual studio
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+using "open a project or solution" option. open the sln file "GitRepoSearchSrv.sln" inside the GithubRepoSearchBak->GitRepoSearchSrv folder.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+open the front application using vscode.
 
-## Learn More
+```
+using "open folder" option. open "github-repo-search-app" and select "select folder"
+you can run the application using the build in terminal in vscode or using the windows cmd window.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+select the "src" folder right click and open in terminal - run npm install.
+and then use npm run in order to run the application.
 
-### Code Splitting
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+After the projects are set change the "Access-Control-Allow-Origin" (in the Web.config - of the server project)
+to work with the application address
 
-### Analyzing the Bundle Size
+```
+for example : if the application run on localhost with port 300 use : value ="http://localhost:3000"
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```
 
-### Making a Progressive Web App
+final step is to config the application get methods to work with the adress of the server
+in the search-app project inside the src/components
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+1 : RepoUnit.jsx
+change the get url domain and port to the one that the server run on
 
-### Advanced Configuration
+```
+for example : if the server run on localhost:44384 use : "https://localhost:44384/Home/SaveRepositories"
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+```
 
-### Deployment
+2: FavoritsRepos.jsx
+change the get url domain and port to the one that the server run on
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+```
+same as RepoUnit.jsx
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+```

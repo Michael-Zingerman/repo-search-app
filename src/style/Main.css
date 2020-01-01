@@ -1,0 +1,122 @@
+.navbar-brand {
+  height: auto !important;
+}
+.git-nav-icn {
+  width: 170px;
+}
+.searchbar {
+  margin-bottom: auto;
+  margin-top: auto;
+  height: 60px;
+  background-color: #353b48;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.search_input {
+  color: white;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 0;
+  caret-color: transparent;
+  line-height: 40px;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_input {
+  padding: 0 10px;
+  width: 450px;
+  caret-color: red;
+  transition: width 0.4s linear;
+}
+
+.searchbar:hover > .search_icon {
+  background: white;
+  color: #e74c3c;
+}
+
+.fav-hide {
+  display: none;
+}
+.srh-hide {
+  display: none;
+}
+.fav-show {
+  display: block;
+}
+.srh-show {
+  display: block;
+}
+
+.search_icon {
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+}
+.search-b {
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+.repo-unit {
+  background-color: #353b48 !important;
+  border-color: black !important;
+  padding: 1%;
+  border-radius: 26px !important;
+}
+
+.repo-name {
+  color: white;
+}
+
+.container {
+  border: 5px solid rgb(111, 41, 97);
+  border-radius: 0.5em;
+  padding: 10px;
+}
+.item {
+  display: inline-block;
+  vertical-align: middle;
+}
+.save-btn {
+  float: right;
+  background-color: #09d3ac !important;
+  border-color: black !important;
+  border-radius: 50px !important;
+  border-color: black !important;
+  background-color: gray !important;
+  border-width: medium !important;
+  cursor: pointer;
+}
+.save-btn:hover {
+  color: #e74c3c !important;
+  background-color: white !important;
+}
+
+.repo-name {
+  padding-left: 3%;
+}
+.search-b {
+  padding-top: 3%;
+  padding-bottom: 1%;
+}
+
+.con-unit-rep {
+  padding: 0.5%;
+}
+.con-unit-rep-hide {
+  display: none;
+}
+.save-btn-hide {
+  display: none !important;
+}
+.repo-search-bar-hide {
+  display: none !important;
+}
